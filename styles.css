@@ -10,10 +10,26 @@ body {
 }
 #feedbox {
     background-color: rgb(228, 228, 228);
-    display: block;
-    padding: auto;
+    display: flex;
+    flex-direction: column;
 }
 img {
     height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+.photobox {
+    margin: auto;
+    overflow: hidden;
+    background-color: white;
+    width: 300px
+}
+.phototitle {
+    float: left;
+}
+.date {
+    float: right;
+}
+.topbar {
     width: 300px;
 }
